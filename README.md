@@ -7,6 +7,8 @@ Before we start, make sure you have an Ubuntu server or Droplet from DigitalOcea
 
 You can get more information about DigitalOcean <a href = "https://www.digitalocean.com/">Here.</a>
 
+I also deploy this example on Heroku <a href = "http://salty-ridge-6258.herokuapp.com/uploadPic/list/">Upload a Photo.</a>
+
 <h2> Step 1. Install and Configure Docker on Server </h2>
 
 First login or SSH into your Ubuntu server and initial Terminal. Here we use a Ubuntu Trusty 14.04 (LTS) provided by DigitalOcean.
