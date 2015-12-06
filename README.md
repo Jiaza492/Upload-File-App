@@ -93,6 +93,7 @@ $ nano Dockerfile
 
 press i to Insert into following line:
 
+======================================
 FROM ubuntu
 
 RUN apt-get update
@@ -112,6 +113,7 @@ ENV DRONE_GITHUB_CLIENT <CLIENT_TOKEN_HERE>
 ENV DRONE_GITHUB_SECRET <CLIENT_SECRET_HERE>
 
 CMD /usr/local/bin/droned
+==================================
 
 Save it as it is. Replace the <CLIENT_TOKEN_HERE> and <CLIENT_SECRET_HERE> with the tokens noted from the step above.
 
