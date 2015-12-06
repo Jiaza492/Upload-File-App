@@ -7,4 +7,5 @@ notify:
   
 script:
   - pip install -r requirements.txt
+  - pip install PIL  --allow-unverified PIL --allow-all-external
   - python manage.py test
