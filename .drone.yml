@@ -1,0 +1,10 @@
+image: python2.7
+
+notify:
+  email:
+    recipients:
+    - zj2170@columbia.edu
+  
+script:
+  - pip install -r requirements.txt
+  - python manage.py test
