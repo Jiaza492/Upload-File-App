@@ -1,6 +1,5 @@
-# Upload-File-App
+# Configure Continuous Integration Testing Server with Drone - Upload-File-App
 
-Credit: Ziang Jia
 
 This is a example application teach you how to perform Continuous Integration Testing with Drone.io on Ubuntu and Docker.
 
