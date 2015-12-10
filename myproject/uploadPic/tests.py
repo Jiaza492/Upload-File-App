@@ -16,4 +16,5 @@ class ListViewsTestCase(TestCase):
         resp = c.post('/uploadPic/list/',{'docfile': file})
 #         print resp.status_code
         self.assertEqual(resp.status_code, 200)
+        print resp.context['docfile']
         
