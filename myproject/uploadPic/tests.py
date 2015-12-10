@@ -12,9 +12,11 @@ class ListViewsTestCase(TestCase):
         image.save(file, 'png')
         file.name = 'test.png'
         file.seek(0)
+        
+        print file
         # get post response from list form with parameter docfile = file
         resp = c.post('/uploadPic/list/',{'docfile': file})
 #         print resp.status_code
         self.assertEqual(resp.status_code, 200)
-        print resp.context['docfile']
+        print resp
         
