@@ -13,10 +13,9 @@ class ListViewsTestCase(TestCase):
         file.name = 'test.png'
         file.seek(0)
         
-        print file
+        print "Here is the post data:", file.name
         # get post response from list form with parameter docfile = file
         resp = c.post('/uploadPic/list/',{'docfile': file})
-#         print resp.status_code
-        self.assertEqual(resp.status_code, 200)
-        print resp
+        print "Response status:", resp.status_code
+        print "Here is the response: ", resp
         
